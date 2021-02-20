@@ -1,0 +1,96 @@
+.tx-modals-modal{
+
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1020;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.65);
+    pointer-events: none;
+    opacity: 0;
+
+    .tx-modals-dialog{
+        position: relative;
+        width: auto;
+        max-width: 600px;
+        margin: 1.75rem auto;
+        pointer-events: none;
+        box-shadow: 4px 4px 20px rgba(0,0,0,0.3);
+    }
+
+    &.tx-modals-modal-show{
+        display: block;
+        opacity: 1;
+        pointer-events: all;
+        .tx-modals-dialog{
+            animation: tx-modals-fadein;
+            animation-duration: 0.5s;
+            animation-iteration-count: 1;
+        }
+    }
+
+    @keyframes tx-modals-fadein{
+        0%{
+            transform: perspective(500px) rotateX(-25deg) translateY(-280px) scale(0);
+        }
+        40%{
+            transform: perspective(0px) rotateY(10deg) translateY(0px) scale(1.1);
+        }
+        100%{
+            transform: perspective(0px) rotateY(0deg) translateY(0px) scale(1);
+        }
+    }
+
+    .tx-modals-content{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        pointer-events: auto;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0,0,0,0.2);
+        outline: 0;
+    }
+
+    .tx-modals-header{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 1rem;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .tx-modals-body{
+        position: relative;
+        flex: 1 1 auto;
+        padding: 1rem;
+    }
+
+    .tx-modals-close{
+        float: right;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1;
+        color: #000;
+        text-shadow: 0 1px 0 #fff;
+        opacity: .5;
+        padding: 1rem;
+        margin: -1rem -1rem -1rem auto;
+        border: none;
+        span{
+            pointer-events: none;
+        }
+    }
+
+}
+
+a.tx-modals-link,
+button.tx-modals-link{
+    padding: 0.7rem 1.1rem;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+}

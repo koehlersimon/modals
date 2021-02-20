@@ -1,0 +1,43 @@
+<f:layout name="Default" />
+<f:section name="Main">
+
+    <f:switch expression="{data.tx_modals_type}">
+        <f:case value="default">
+            <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#tx-modals-modal-{data.uid}">{data.tx_modals_button_label}</a>
+            <f:render section="ModalWindow" arguments="{content:data.bodytext,uid:data.uid,title:data.tx_modals_modal_title}"/>
+        </f:case>
+        <f:case value="content">
+            <a href="#" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#tx-modals-modal-{data.uid}">{data.tx_modals_button_label}</a>
+            <f:render section="ModalWindow" arguments="{content:data.tx_modals_content_elements,uid:data.uid}"/>
+        </f:case>
+        <f:case value="iframe">
+            <a href="#" class="btn btn-primary btn-lg" data-source="{data.tx_modals_source}">{data.tx_modals_button_label}</a>
+        </f:case>
+        <f:defaultCase>
+            <a href="#" class="btn btn-primary btn-lg">{data.tx_modals_button_label}</a>
+            <div style="display:block;" id="tx-modals-content-{data.uid}">{data.bodytext}</div>
+        </f:defaultCase>
+    </f:switch>
+
+</f:section>
+
+<f:section name="ModalWindow">
+    <div class="modal fade" id="tx-modals-modal-{uid}">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">{title}</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <f:format.html>{content}</f:format.html>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</f:section>

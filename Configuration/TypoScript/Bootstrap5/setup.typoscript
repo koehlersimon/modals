@@ -1,0 +1,15 @@
+// Fluid paths for content elements
+lib.contentElement {
+  templateRootPaths {
+      10 = EXT:modals/Resources/Private/Bootstrap5/Templates/
+  }
+  partialRootPaths {
+      10 = EXT:modals/Resources/Private/Bootstrap5/Partials/
+  }
+  layoutRootPaths {
+      10 = EXT:modals/Resources/Private/Bootstrap5/Layouts/
+  }
+}
+
+// Importing content elements, page types...
+@import 'EXT:modals/Configuration/TypoScript/ContentElements/*.typoscript'

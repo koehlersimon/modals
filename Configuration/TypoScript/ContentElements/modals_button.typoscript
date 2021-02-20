@@ -1,0 +1,7 @@
+tt_content {
+    modals_button =< lib.contentElement
+    modals_button {
+        templateName = ModalsButton
+        extbase.controllerExtensionName = modals
+    }
+}

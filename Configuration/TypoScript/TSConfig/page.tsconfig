@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems.interactive {
+    elements {
+        modals_button {
+            iconIdentifier = modals-button
+            title = Modal Button
+            description = A Button that opens a Modal Window
+            tt_content_defValues {
+                CType = modals_button
+            }
+        }
+    }
+    show := addToList(modals_button)
+}
