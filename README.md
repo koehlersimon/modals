@@ -1,4 +1,4 @@
-# modals - TYPO3 Extension `VERSION 0.0.0`
+# modals - TYPO3 Extension `VERSION 0.0.0 for TYPO3 10.4.0-10.4.99`
 
 This new TYPO3 extension offers a new Content Element that creates a button to open content in a modal window. You can use it for any website but also with the Bootstrap Package (bootstrap_package).
 
