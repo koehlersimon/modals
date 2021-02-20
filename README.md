@@ -2,11 +2,20 @@
 
 This new TYPO3 extension offers a new Content Element that creates a button to open content in a modal window. You can use it for any website but also with the Bootstrap Package (bootstrap_package).
 
+## THIS IS A TEST VERSION, LET ME KNOW WHAT YOU THINK
+https://twitter.com/koehlersimon
+https://simon-koehler.com/en/contact
+
 ## Features:
 
 - Provides a new content element
 - Provides custom CSS and JS (platform independent)
 - Provides bootstrap 4 CSS styles
+
+## Upcoming Features for stable version:
+
+- Adding any content element do the modal
+- Ajax-Features to load contents dynamically
 
 ## Installation
 
