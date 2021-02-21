@@ -15,7 +15,7 @@ lib.contentElement {
 @import 'EXT:modals/Configuration/TypoScript/ContentElements/*.typoscript'
 
 // Include CSS
-page.includeCSS.tx_modals = EXT:modals/Resources/Public/Css/default.css
+page.includeCSS.tx_modals = EXT:modals/Resources/Public/Css/modals.css
 
 // Include CSS
-page.includeJSFooter.tx_modals = EXT:modals/Resources/Public/Js/Modals.js
+page.includeJSFooter.tx_modals = EXT:modals/Resources/Public/Js/modals.js
