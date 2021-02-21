@@ -55,6 +55,12 @@ This new TYPO3 extension offers a new Content Element that creates a button to o
     </tr>
 </table>
 
+## Screenshots
+
+| Frontend      | Content     |  Template      | HTML      |
+|------------|-------------|------------|-------------|
+| ![alt text](https://raw.githubusercontent.com/koehlersimon/modals/master/Resources/Public/Screenshots/frontend-bootstrap-package.jpg) | ![alt text](https://raw.githubusercontent.com/koehlersimon/modals/master/Resources/Public/Screenshots/backend-content-element-editor.jpg) | ![alt text](https://raw.githubusercontent.com/koehlersimon/modals/master/Resources/Public/Screenshots/backend-template-typoscript.jpg) | ![alt text](https://raw.githubusercontent.com/koehlersimon/modals/master/Resources/Public/Screenshots/frontend-code-details.jpg) |
+
 ## Installation
 
 Install the extension by downloading it in the extension manager or on https://extensions.typo3.org/extension/modals/.
