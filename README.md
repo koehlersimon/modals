@@ -27,7 +27,6 @@ This new TYPO3 extension offers a new Content Element that creates a button to o
         <td><table border="0">
             <tr>
                 <th>Features</b></th>
-                <th>Upcoming Features</th>
             </tr>
             <tr>
                 <td>
@@ -37,6 +36,13 @@ This new TYPO3 extension offers a new Content Element that creates a button to o
                         <li>Provides bootstrap 4 CSS styles</li>
                     </ul>
                 </td>
+            </tr>
+        </table>
+        <table border="0">
+            <tr>
+                <th>Features</b></th>
+            </tr>
+            <tr>
                 <td>
                     <ul>
                         <li>Adding different content types to the modal</li>
