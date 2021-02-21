@@ -24,7 +24,7 @@ This new TYPO3 extension offers a new Content Element that creates a button to o
         </td>
         <td>
             <ul>
-                <li>Adding any content element do the modal</li>
+                <li>Adding different content types to the modal</li>
                 <li>Ajax-Features to load contents dynamically</li>
             </ul>
         </td>
@@ -47,13 +47,14 @@ You can simply include the static TypoScript into your root template to make mod
 
 <table>
     <tr>
-        <td><h2>Support Development</h2>
+        <td><strong>Support Development</strong><br>
         I believe in the power of open source and free software. I also believe in you and your projects.
         If you like my work and you want to ensure further development, please support it here:
         </td>
         <td>
-        <img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/logo-center/Badge_2.png">
-        <p>https://paypal.me/typo3freelancer</p>
+        <a href="https://paypal.me/typo3freelancer">
+        <img width="260" src="https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/logo-center/Badge_2.png">
+        </a>
         </td>
     </tr>
 </table>
