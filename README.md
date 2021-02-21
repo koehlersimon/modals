@@ -1,9 +1,9 @@
-# <img src="https://github.com/koehlersimon/modals/blob/master/ext_icon.gif?raw=true" alt="icon"> modals - TYPO3 Extension
-
-This new TYPO3 extension offers a new Content Element that creates a button to open content in a modal window. You can use it for any website but also with the Bootstrap Package (bootstrap_package).
-
 <table border="0">
     <tr>
+        <td align="left" valign="top">
+            <h1><img src="https://github.com/koehlersimon/modals/blob/master/ext_icon.gif?raw=true" alt="icon"> modals - TYPO3 Extension</h1>   
+        This new TYPO3 extension offers a new Content Element that creates a button to open content in a modal window. You can use it for any website but also with the Bootstrap Package (bootstrap_package).
+        </td>
         <td>
         <table border="0">
             <tr>
@@ -24,34 +24,44 @@ This new TYPO3 extension offers a new Content Element that creates a button to o
             </tr>
         </table>
         </td>
-        <td><table border="0">
-            <tr>
-                <th>Features</b></th>
-            </tr>
-            <tr>
-                <td>
-                    <ul>
-                        <li>Provides a new content element</li>
-                        <li>Provides custom CSS and JS (platform independent)</li>
-                        <li>Provides bootstrap 4 CSS styles</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-        <table border="0">
-            <tr>
-                <th>Features</b></th>
-            </tr>
-            <tr>
-                <td>
-                    <ul>
-                        <li>Adding different content types to the modal</li>
-                        <li>Ajax-Features to load contents dynamically</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-</td>
+    </tr>
+</table>
+
+<hr>
+
+<table border="0">
+    <tr>
+        <td valign="top">
+            <table border="0">
+                <tr>
+                    <th>Features</b></th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Provides a new content element</li>
+                            <li>Provides custom CSS and JS (platform independent)</li>
+                            <li>Provides bootstrap 4 CSS styles</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td valign="top">
+            <table border="0">
+                <tr>
+                    <th>Upcoming Features</b></th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Adding different content types to the modal</li>
+                            <li>Ajax-Features to load contents dynamically</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </td>
     </tr>
 </table>
 
