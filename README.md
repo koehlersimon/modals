@@ -4,48 +4,48 @@ This new TYPO3 extension offers a new Content Element that creates a button to o
 
 <table border="0">
     <tr>
-        <th>Latest version</b></th>
-        <td>0.0.1</td>
-    </tr>
-    <tr>
-        <th>Status</b></th>
-        <td>alpha</td>
-    </tr>
-    <tr>
-        <th>TYPO3 version</b></th>
-        <td>10.4.0 - 10.4.99</td>
-    </tr>
-    <tr>
-        <th>TER</b></th>
-        <td><a href="https://extensions.typo3.org/extension/modals/">Download</a></td>
-    </tr>
-</table>
-
-
-## This is a TEST VERSION (alpha), please let me know what you think:
-
-- :envelope: https://simon-koehler.com/en/contact
-- :bird: https://twitter.com/koehlersimon
-
-<table border="0">
-    <tr>
-        <th>Features</b></th>
-        <th>Upcoming Features</th>
-    </tr>
-    <tr>
         <td>
-            <ul>
-                <li>Provides a new content element</li>
-                <li>Provides custom CSS and JS (platform independent)</li>
-                <li>Provides bootstrap 4 CSS styles</li>
-            </ul>
+        <table border="0">
+            <tr>
+                <th>Latest version</b></th>
+                <td>0.0.1</td>
+            </tr>
+            <tr>
+                <th>Status</b></th>
+                <td>alpha</td>
+            </tr>
+            <tr>
+                <th>TYPO3 version</b></th>
+                <td>10.4.0 - 10.4.99</td>
+            </tr>
+            <tr>
+                <th>TER</b></th>
+                <td><a href="https://extensions.typo3.org/extension/modals/">Download</a></td>
+            </tr>
+        </table>
         </td>
-        <td>
-            <ul>
-                <li>Adding different content types to the modal</li>
-                <li>Ajax-Features to load contents dynamically</li>
-            </ul>
-        </td>
+        <td><table border="0">
+            <tr>
+                <th>Features</b></th>
+                <th>Upcoming Features</th>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Provides a new content element</li>
+                        <li>Provides custom CSS and JS (platform independent)</li>
+                        <li>Provides bootstrap 4 CSS styles</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Adding different content types to the modal</li>
+                        <li>Ajax-Features to load contents dynamically</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+</td>
     </tr>
 </table>
 
