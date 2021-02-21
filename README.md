@@ -1,7 +1,6 @@
 # <img src="https://github.com/koehlersimon/modals/blob/master/ext_icon.gif?raw=true" alt="icon"> modals - TYPO3 Extension
    
 This new TYPO3 extension offers a new Content Element that creates a button to open content in a modal window. You can use it for any website but also with the Bootstrap Package (bootstrap_package).
-</table>
 
 <table border="0">
     <tr>
