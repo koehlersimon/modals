@@ -1,13 +1,31 @@
-# modals - TYPO3 Extension
-
-VERSION 0.0.1 for TYPO3 10.4.0-10.4.99
+# <img src="https://github.com/koehlersimon/modals/blob/master/ext_icon.gif?raw=true" alt="icon"> modals - TYPO3 Extension
 
 This new TYPO3 extension offers a new Content Element that creates a button to open content in a modal window. You can use it for any website but also with the Bootstrap Package (bootstrap_package).
 
+<table border="0">
+    <tr>
+        <th>Latest version</b></th>
+        <td>0.0.1</td>
+    </tr>
+    <tr>
+        <th>Status</b></th>
+        <td>alpha</td>
+    </tr>
+    <tr>
+        <th>TYPO3 version</b></th>
+        <td>10.4.0 - 10.4.99</td>
+    </tr>
+    <tr>
+        <th>TER</b></th>
+        <td><a href="https://extensions.typo3.org/extension/modals/">Download</a></td>
+    </tr>
+</table>
+
+
 ## This is a TEST VERSION (alpha), please let me know what you think:
 
-- https://twitter.com/koehlersimon
-- https://simon-koehler.com/en/contact
+- :envelope: https://simon-koehler.com/en/contact
+- :bird: https://twitter.com/koehlersimon
 
 <table border="0">
     <tr>
